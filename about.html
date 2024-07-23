@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - AR Try On</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About Project</li></a>
+            <a href=""><li>Github</li></a>
+        </ul>
+    </nav>
+    <div class="about-container">
+        <h1>About AR Try-On Experience</h1>
+        <section>
+            <h2>Overview</h2>
+            <p>
+                The AR Try-On Experience is a cutting-edge web application designed to revolutionize the way users interact with fashion. This project allows users to upload images of clothes or models wearing clothes and then upload or take a full-body picture of themselves to see a virtual try-on of the clothes. The goal is to provide a realistic and immersive experience that helps users visualize how different outfits will look on them, enhancing their online shopping experience.
+            </p>
+        </section>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li><strong>User Uploads:</strong>
+                    <ul>
+                        <li>Clothes Image Upload: Users can upload images of clothes or models wearing clothes.</li>
+                        <li>User Image Upload: Users can upload or take a full-body picture of themselves.</li>
+                    </ul>
+                </li>
+                <li><strong>Cloth Detection and Segmentation:</strong>
+                    <p>The application utilizes advanced image processing techniques to detect and segment the clothes from the uploaded image.</p>
+                </li>
+                <li><strong>Body Detection:</strong>
+                    <p>The system accurately detects the user's body in the uploaded image or picture, ensuring a precise fit for the virtual try-on.</p>
+                </li>
+                <li><strong>Virtual Try-On:</strong>
+                    <p>The segmented clothes image is overlaid onto the user's body image, with proper alignment and scaling to provide a realistic visualization.</p>
+                </li>
+                <li><strong>User-Friendly Interface:</strong>
+                    <p>The application features an intuitive and easy-to-use interface, guiding users through the process of uploading images and viewing the virtual try-on results.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Frontend:</strong>
+                    <ul>
+                        <li>HTML/CSS: For creating the web layout and styling.</li>
+                        <li>JavaScript: For interactive elements and user input handling.</li>
+                    </ul>
+                </li>
+                <li><strong>Backend:</strong>
+                    <ul>
+                        <li>Node.js with Express.js: For server-side logic and handling API requests.</li>
+                    </ul>
+                </li>
+                <li><strong>Image Processing and Augmented Reality:</strong>
+                    <ul>
+                        <li>TensorFlow.js or ML5.js: For implementing machine learning models directly in the browser.</li>
+                        <li>OpenCV.js: For image processing tasks such as cloth detection and body segmentation.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Future Enhancements</h2>
+            <ul>
+                <li>Expanded Clothing Options: Integrating a wider variety of clothing items and styles.</li>
+                <li>Improved Fit Accuracy: Enhancing the algorithms for better fit and realism.</li>
+                <li>Personalization: Adding features that allow users to save their virtual try-ons and share them on social media.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
